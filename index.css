@@ -5,6 +5,20 @@
     text-decoration: none;
 }
 
+ .gif-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 columns */
+            gap: 20px; /* Space between items */
+            max-width: 600px; /* Optional: Adjust to fit your content */
+            margin: auto;
+        }
+
+        .gif-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px; /* Optional: Add rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+        }
 
 
 /* Bouncing contract address */
